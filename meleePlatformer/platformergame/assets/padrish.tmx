@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" nextobjectid="4">
+ <properties>
+  <property name="rat" value="assets/ratmodified7.png"/>
+  <property name="snail1" value="assets/snail2.png"/>
+ </properties>
+ <tileset firstgid="1" name="BG" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="BG.png" width="1000" height="750"/>
+ </tileset>
+ <tileset firstgid="639" name="basic_ground_tileset" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="basic_ground_tileset.png" width="200" height="200"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxTZGBgUBzFo3gUj+JRPOjwKBgFo2DoAgACjy5p
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="40" height="15">
+  <properties>
+   <property name="collidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCaYxDS5zsJk7ikfxKB6aGABru4+x
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="8"/>
+   <property name="textureHeight" value="90"/>
+   <property name="textureID" value="rat"/>
+   <property name="textureWidth" value="89"/>
+  </properties>
+  <object id="1" name="rat" type="Player" x="82" y="0" width="89" height="90"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 2">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="4"/>
+   <property name="textureHeight" value="34"/>
+   <property name="textureID" value="snail1"/>
+   <property name="textureWidth" value="36"/>
+  </properties>
+  <object id="3" name="snail1" type="Snail" x="468" y="0" width="36" height="34"/>
+ </objectgroup>
+</map>

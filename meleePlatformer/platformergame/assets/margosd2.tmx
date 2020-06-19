@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" nextobjectid="7">
+ <properties>
+  <property name="Guy" value="assets/dirtyharry.png"/>
+  <property name="snail1" value="assets/snail.png"/>
+ </properties>
+ <tileset firstgid="1" name="BG" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="BG.png" width="1000" height="750"/>
+ </tileset>
+ <tileset firstgid="639" name="basic_ground_tileset" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="basic_ground_tileset.png" width="200" height="200"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6Cx/qFfYwcFm6SqzgX+OoUOAtE=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="8"/>
+   <property name="textureHeight" value="98"/>
+   <property name="textureID" value="Guy"/>
+   <property name="textureWidth" value="80"/>
+  </properties>
+  <object id="1" name="Guy" type="Player" x="31" y="83" width="72" height="69"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 2">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="4"/>
+   <property name="textureHeight" value="32"/>
+   <property name="textureID" value="snail1"/>
+   <property name="textureWidth" value="34"/>
+  </properties>
+  <object id="5" name="snail1" type="Snail" x="555" y="256" width="34" height="32"/>
+ </objectgroup>
+ <layer name="Tile Layer 2" width="40" height="15">
+  <properties>
+   <property name="collidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBjBNKZRPIpH8VDFAGQ0joE=
+  </data>
+ </layer>
+</map>

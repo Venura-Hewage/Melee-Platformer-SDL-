@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" nextobjectid="38">
+ <properties>
+  <property name="girl" value="assets/player.png"/>
+ </properties>
+ <tileset firstgid="1" name="generic_platformer_tiles" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="generic_platformer_tiles.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYWBgYKEi/kQkpqado/aO2jtq78iw15XKuJ2RODxq7/C2FwA6xZct
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="6"/>
+   <property name="textureHeight" value="118"/>
+   <property name="textureID" value="girl"/>
+   <property name="textureWidth" value="95"/>
+  </properties>
+  <object id="24" name="girl" type="Player" x="110" y="200" width="95" height="118"/>
+ </objectgroup>
+</map>

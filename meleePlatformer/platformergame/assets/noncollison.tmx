@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" nextobjectid="3">
+<properties>
+  <property name="Guy" value="assets/dirtyharry.png"/>
+ </properties>
+
+ <tileset firstgid="1" name="basic_ground_tileset" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="basic_ground_tileset.png" width="200" height="200"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4BzEGBcYaHeNum/UfYMBj7pvZLpPcpDgUfeNum/UfbgxAMisHuU=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+ <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="8"/>
+   <property name="textureHeight" value="98"/>
+   <property name="textureID" value="Guy"/>
+   <property name="textureWidth" value="80"/>
+  </properties>
+  <object id="1" name="Guy" x="301" y="168" width="76" height="79"/>
+ </objectgroup>
+</map>

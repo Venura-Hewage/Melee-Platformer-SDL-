@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{730CD03A-5163-4272-A0BF-53ED2771DF98}</ProjectGuid>
+    <RootNamespace>gamedemo6</RootNamespace>
+    <ProjectName>meleeplatformergame</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Hewage\Documents\Visual Studio 2012\zlib-exp\include;C:\Users\Hewage\Documents\My Webs\programming libraries\C-C++\SDL-fixed\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Hewage\Documents\Visual Studio 2012\zlib-exp\lib;C:\Users\Hewage\Documents\My Webs\programming libraries\C-C++\SDL-fixed\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\Hewage\Documents\My Webs\programming libraries\C++\SDL-VisualC++\SDL2-2.0.3\master\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Hewage\Documents\My Webs\programming libraries\C++\SDL-VisualC++\SDL2-2.0.3\master\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\Hewage\Documents\Visual Studio 2012\zlib-exp\include;C:\Users\Hewage\Documents\My Webs\programming libraries\C-C++\tinyxml2-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MP3_MUSIC_DISABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Hewage\Documents\Visual Studio 2012\zlib-exp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2.lib;SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;zdll.lib</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Users\Hewage\Documents\My Webs\programming libraries\C++\SDL-VisualC++\SDL2-2.0.3\master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\Hewage\Documents\My Webs\programming libraries\C++\SDL-VisualC++\SDL2-2.0.3\master\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\tinyxml2-master\tinyxml2.cpp" />
+    <ClCompile Include="AnimatedGraphics.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="BulletHandler.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObjectFactory.cpp" />
+    <ClCompile Include="GameOverState.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GameStateMachine.cpp" />
+    <ClCompile Include="hitbox.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="LevelParser.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuButton.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="ObjectLayer.cpp" />
+    <ClCompile Include="PauseState.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayState.cpp" />
+    <ClCompile Include="ScrollingBackground.cpp" />
+    <ClCompile Include="SDLGameObject.cpp" />
+    <ClCompile Include="PlatformerObject.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="StateParser.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TileLayer.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\tinyxml2-master\tinyxml2.h" />
+    <ClInclude Include="AnimatedGraphics.h" />
+    <ClInclude Include="Base64.h" />
+    <ClInclude Include="BaseCreator.h" />
+    <ClInclude Include="BulletHandler.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="Collisions.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyBullet.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectFactory.h" />
+    <ClInclude Include="GameOverState.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GameStateMachine.h" />
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="hitbox.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LevelParser.h" />
+    <ClInclude Include="LoaderParams.h" />
+    <ClInclude Include="MenuButton.h" />
+    <ClInclude Include="MainMenuState.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="ObjectLayer.h" />
+    <ClInclude Include="PauseState.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerBullet.h" />
+    <ClInclude Include="PlayState.h" />
+    <ClInclude Include="ScrolllingBackground.h" />
+    <ClInclude Include="SDLGameObject.h" />
+    <ClInclude Include="PlatformerObject.h" />
+    <ClInclude Include="Snail.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="StateParaser.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="TileLayer.h" />
+    <ClInclude Include="Tilesets.h" />
+    <ClInclude Include="Vector2D.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

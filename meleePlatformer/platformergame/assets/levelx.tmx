@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tilesetgum" tilewidth="32" tileheight="32">
+  <image source="IsoHex10_3__.jpg" width="529" height="397"/>
+ </tileset>
+ <tileset firstgid="193" name="tilsetmug" tilewidth="32" tileheight="32">
+  <image source="terrain_3.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1217" name="crest2" tilewidth="32" tileheight="32">
+  <image source="RPGpack_sheet_2X.png" width="2560" height="1664"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwz4WVgMBnFo3gU48SyDJRjRSgGmcfGAMG2VMAg86hhDi3No6aZACh4R+8=
+  </data>
+ </layer>
+</map>

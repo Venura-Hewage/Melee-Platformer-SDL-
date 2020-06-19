@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="BG" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="BG.png" width="1000" height="750"/>
+ </tileset>
+ <tileset firstgid="639" name="basic_ground_tileset" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="basic_ground_tileset.png" width="200" height="200"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBrFo3gUj+JRPIpHMV3xKBjeAAAqGwPB
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="40" height="15">
+  <properties>
+   <property name="collidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBxOZBjeePoopwtNGMUUYAO6odkk=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="gan" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="full-bg.png" width="3072" height="1536"/>
+ </tileset>
+ <tileset firstgid="4051" name="hea" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="foresttile.png" width="341" height="324"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUD0n8iH9kYQCS1zlt
+  </data>
+ </layer>
+</map>

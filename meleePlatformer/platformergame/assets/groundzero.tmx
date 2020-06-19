@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" nextobjectid="34">
+ <properties>
+  <property name="Plane" value="assets/reverse tail plane.png"/>
+ </properties>
+ <tileset firstgid="1" name="BG" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="BG.png" width="1000" height="750"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJx7w8DA8IaKmNqAmm4bdd+o+0bdh8CqjAwMLlDsDMWDxX0OQLc4oWGXQeS+WKBbEoDYEUqDcNIgc18cEMcjuS9hELlPGeiWaiCuAeJaKKZ3/nBjIoxnMqLyqQ2IcQMpeNR9g8t9AL3g1Zg=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="4"/>
+   <property name="textureHeight" value="81"/>
+   <property name="textureID" value="Plane"/>
+   <property name="textureWidth" value="119"/>
+  </properties>
+  <object id="5" name="Plane" type="Player" x="107" y="49" width="119" height="81"/>
+ </objectgroup>
+</map>

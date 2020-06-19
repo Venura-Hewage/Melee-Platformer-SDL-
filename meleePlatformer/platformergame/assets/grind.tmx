@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="15" tilewidth="32" tileheight="32" nextobjectid="26">
+ <properties>
+  <property name="Plane" value="assets/reverse tail plane.png"/>
+  <property name="cloud2" value="assets/clouds2.png"/>
+  <property name="enemy1" value="assets/sprite-ufo.png"/>
+  <property name="enemy2" value="assets/enemy2.png"/>
+  <property name="enemy3" value="assets/enemy3.png"/>
+  <property name="explosion" value="assets/explosion.png"/>
+  <property name="largeexplosion" value="assets/largeexplosion.png"/>
+  <property name="turret" value="assets/turret.png"/>
+ </properties>
+ <tileset firstgid="1" name="chrois" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="BG.png" width="1000" height="750"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0rERACAIQ1FO2cY93Mb9W5ZIDArF73kX3Mwc2ASHvI3R7z7GvmqD4p/VjpvWqma1pfetu23FfV/YeA1cG9ghldXLMmf2MsztzeNl/HMAtv9i2A==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="4"/>
+   <property name="textureHeight" value="81"/>
+   <property name="textureID" value="Plane"/>
+   <property name="textureWidth" value="119"/>
+  </properties>
+  <object id="1" name="Plane" type="Player" x="111" y="120" width="48" height="38"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 2">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="1"/>
+   <property name="textureHeight" value="81"/>
+   <property name="textureID" value="turret"/>
+   <property name="textureWidth" value="119"/>
+  </properties>
+  <object id="15" name="turret1" type="Turret" x="351" y="278" width="41" height="35"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 3">
+  <properties>
+   <property name="animSpeed" value="0.2"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="1"/>
+   <property name="textureHeight" value="317"/>
+   <property name="textureID" value="cloud"/>
+   <property name="textureWidth" value="640"/>
+  </properties>
+  <object id="18" name="cloud" type="ScrollingBackground" x="0" y="0" width="32" height="23"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 4">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="1"/>
+   <property name="textureHeight" value="81"/>
+   <property name="textureID" value="enemy2"/>
+   <property name="textureWidth" value="119"/>
+  </properties>
+  <object id="19" name="enemy2" type="ShotGlider" x="309" y="79" width="56" height="37"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 5">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="1"/>
+   <property name="textureHeight" value="81"/>
+   <property name="textureID" value="enemy3"/>
+   <property name="textureWidth" value="119"/>
+  </properties>
+  <object id="22" name="enemy3" type="Eskeltor" x="239" y="133" width="62" height="39"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 6">
+  <properties>
+   <property name="animSpeed" value="0"/>
+   <property name="callbackID" value="0"/>
+   <property name="numFrames" value="1"/>
+   <property name="textureHeight" value="81"/>
+   <property name="textureID" value="enemy1"/>
+   <property name="textureWidth" value="119"/>
+  </properties>
+  <object id="24" name="enemy1" type="Glider" x="344" y="140" width="46" height="43"/>
+ </objectgroup>
+</map>

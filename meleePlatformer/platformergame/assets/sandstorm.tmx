@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="generic_platformer_tiles" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="generic_platformer_tiles.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="661" name="grass1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="grass1.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="670" name="ground5" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="ground5.png" width="128" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYB/Fo3gUY8XTmAY3njvCMADLgEJ9
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,61 @@
+﻿Build started 6/01/2016 6:32:05 PM.
+     1>Project "C:\Users\Hewage\Documents\Visual Studio 2012\Projects\meleePlatformer\platformergame\platformergame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Hewage\Documents\Visual Studio 2012\zlib-exp\include" /I"C:\Users\Hewage\Documents\My Webs\programming libraries\C-C++\tinyxml2-master" /ZI /nologo /W3 /WX- /Od /Oy- /D MP3_MUSIC_DISABLED /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CollisionManager.cpp
+         CollisionManager.cpp
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(14): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(15): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(28): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(29): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(53): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(54): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(57): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(76): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(77): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(88): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(141): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(142): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(146): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(147): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(153): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\hewage\documents\visual studio 2012\projects\meleeplatformer\platformergame\collisionmanager.cpp(154): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hewage\Documents\Visual Studio 2012\Projects\meleePlatformer\Debug\meleeplatformergame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Hewage\Documents\Visual Studio 2012\zlib-exp\lib" SDL2_image.lib SDL2.lib SDL2main.lib SDL2_ttf.lib SDL2_mixer.lib zdll.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hewage\Documents\Visual Studio 2012\Projects\meleePlatformer\Debug\meleeplatformergame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hewage\Documents\Visual Studio 2012\Projects\meleePlatformer\Debug\meleeplatformergame.lib" /MACHINE:X86 Debug\tinyxml2.obj
+         Debug\AnimatedGraphics.obj
+         Debug\base64.obj
+         Debug\BulletHandler.obj
+         Debug\Camera.obj
+         Debug\CollisionManager.obj
+         Debug\Game.obj
+         Debug\GameObjectFactory.obj
+         Debug\GameOverState.obj
+         Debug\GameState.obj
+         Debug\GameStateMachine.obj
+         Debug\hitbox.obj
+         Debug\InputHandler.obj
+         Debug\Layer.obj
+         Debug\Level.obj
+         Debug\LevelParser.obj
+         Debug\main.obj
+         Debug\MenuButton.obj
+         Debug\MainMenuState.obj
+         Debug\ObjectLayer.obj
+         Debug\PauseState.obj
+         Debug\Player.obj
+         Debug\PlayState.obj
+         Debug\ScrollingBackground.obj
+         Debug\SDLGameObject.obj
+         Debug\PlatformerObject.obj
+         Debug\SoundManager.obj
+         Debug\StateParser.obj
+         Debug\TextureManager.obj
+         Debug\TileLayer.obj
+         Debug\Vector2D.obj
+         platformergame.vcxproj -> C:\Users\Hewage\Documents\Visual Studio 2012\Projects\meleePlatformer\Debug\meleeplatformergame.exe
+     1>Done Building Project "C:\Users\Hewage\Documents\Visual Studio 2012\Projects\meleePlatformer\platformergame\platformergame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.51

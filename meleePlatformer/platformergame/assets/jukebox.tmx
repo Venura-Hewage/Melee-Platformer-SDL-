@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="iestos" tilewidth="32" tileheight="32">
+  <image source="IsoHex10_3__.jpg" width="529" height="397"/>
+ </tileset>
+ <tileset firstgid="193" name="forest" tilewidth="32" tileheight="32">
+  <image source="foresttile.png" width="341" height="324"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJybyMDAMHEUj+JRTBdsN4opwgBGOY/9
+  </data>
+ </layer>
+</map>

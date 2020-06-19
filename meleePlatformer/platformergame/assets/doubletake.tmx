@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="stones" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="stones.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="50" name="bluestars" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="bluestars.jpg" width="400" height="600"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJytkTEKwzAMRd0uhR6omaOzdS6YToZ6Cz6JTpA75B7F8AUfoZYMGh4RsvT8cbSUoo7HHxZwAKHeErgUczvg3qQBXx+Br4N59gLqdhsyVdRvl493IzbnanBVuCZPgrN594Zvc31zdUICn5LDfIPyfEBFvweYz95/wDUI89j/kcDn8wnNCfn5Ho+5ViDB7qDan63B/b/YT8yc4ZrMJdF1g++eSKYvO9/0fQGda3KX
+  </data>
+ </layer>
+</map>
